@@ -1,0 +1,41 @@
+body{
+    display: flex;
+    margin: 50px;
+
+}
+.time-bar-container {
+    border-radius: 10px;
+    margin: auto;
+    width: 600px;
+    height: 20px;
+    background-color: #2a2828;
+    padding: 3px;
+}
+button{
+    position: relative;
+
+}
+
+.audiocontainer{
+    margin:30px;
+}
+.tablecontainer{
+    margin-top: 20px;
+    border: 2px solid black;
+}
+table tr td {
+
+}
+.container{
+    text-align: center;
+}
+
+.time-bar {
+    width: 0;
+    height: 100%;
+    background-color: #007bff;
+    border-radius: 10px;
+}
+canvas{
+    margin-top: 1px;
+}

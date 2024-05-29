@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="ZQU5X5/styles.css">
+    <title>Sobics</title>
+
+</head>
+<body >
+<div class="audiocontainer">
+    <audio hidden controls autoplay loop>
+
+        <source src="ZQU5X5/music.mp3" type="audio/mpeg">
+        A böngésződ nem támogatja az audio elemet.
+    </audio>
+    <button onclick="toggleAudio()">Turn music OFF/ON</button>
+    <div class="tablecontainer">
+        <table>
+            <thead>
+            <tr>
+                <th>Játékos név</th>
+                <th>Pontszám</th>
+            </tr>
+            </thead>
+            <tbody id="playersTableBody">
+
+            </tbody>
+        </table>
+
+    </div>
+</div>
+
+
+
+
+<div class="container">
+    <h1>Pontszám: <span id="pontszam">0</span></h1>
+
+    <div class="time-bar-container">
+        <div class="time-bar"></div>
+    </div>
+    <div id="playerNameForm" style="display: none;">
+        <h1>Játék Vége</h1>
+        <form id="nameForm">
+            
+            <label for="playerName">Játékos név:</label>
+            <input type="text" id="playerName" required>
+            <button type="submit">Mentés</button>
+        </form>
+    </div>
+    <canvas id="ex" height="600" width="600" style="border: 1px solid;"></canvas>
+</div>
+
+
+</body>
+<script src="script.js"></script>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
